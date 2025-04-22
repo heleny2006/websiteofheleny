@@ -1,0 +1,469 @@
+body{
+
+background-color: rgb(248, 242, 243);
+}
+
+.hobbies{
+    float: left;
+    font-family: "Playwrite AU TAS", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    color: rgb(90, 35, 54);
+    border: 5px solid rgb(90, 35, 54);
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 20px;
+    
+}
+
+
+
+ul.myhobbies {
+    display: inline-block;
+    text-align: left;  
+
+}
+
+
+
+.imagecat{
+
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: 10px 10px rgb(211, 169, 176);
+}
+
+
+
+
+.welcome{
+
+    font-family: "Playwrite AU TAS", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+   color: rgb(90, 35, 54);
+   border: 5px solid rgb(90, 35, 54);
+   border-radius: 30px;
+text-align: center;
+box-shadow: 10px 10px rgb(211, 169, 176);
+}
+
+
+h2{
+
+    font-family: "Playwrite AU TAS", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+   color: rgb(90, 35, 54);
+text-align: center;
+}
+
+
+
+  .foods{
+   
+   float:right;
+    font-family: "Playwrite AU TAS", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    color: rgb(90, 35, 54);
+    border: 5px solid rgb(90, 35, 54);
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+ul.myfoods {
+
+    display: inline-block;
+    text-align: center;  
+
+}
+
+
+a{
+
+    font-family: "Playwrite AU TAS", serif;
+    text-decoration: none;
+list-style-type: none;
+background-color: lightpink;
+display: inline-block;
+border-radius: 5px;
+text-transform: uppercase;
+padding:30px 90px 30px 90px;
+
+}
+
+a:hover{
+    color:hotpink
+}
+
+
+
+
+
+
+nav ul {
+
+
+
+    
+    list-style-type: none;
+    display:flex;
+    justify-content:space-between;
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px plum;
+
+    text-align: center;
+
+
+
+
+    
+    }
+
+
+
+    
+
+
+.mycontacts {
+    margin: auto;
+    width: 25%;
+  
+    padding: 10px;
+  
+
+    float:center;
+    font-family: "Matemasie", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(141, 32, 139);
+    border: 5px dotted rgb(141, 32, 139);
+    box-shadow: 10px 10px rgb(83, 34, 97);
+    height: 50%;
+    border-radius: 80px;
+  
+}
+
+.info {
+    margin: auto;
+    width: 25%;
+  
+    padding: 10px;
+  
+
+    float:center;
+    font-family: "Matemasie", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(141, 32, 139);
+    box-shadow: 10px 10px rgb(83, 34, 97);
+    border: 5px dotted rgb(141, 32, 139);
+    width: 400px;
+    height: 300px;
+    height: 50%;
+    border-radius: 80px;
+
+
+}
+
+
+
+
+
+.container div {
+
+    width: 100px;
+    height: 100px;
+  align-content: center;
+
+
+}
+
+*{box-sizing:border-box;}
+
+
+
+.second-flex ul{
+    display: flex;
+    justify-content: space-around;
+    padding-left:0px;
+    align-content: center;
+}
+.container {
+    height: 400px;
+border: 3px solid;
+display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+align-content: center;
+    align-content: center;
+
+
+}
+
+.aboutpage{
+
+    font-family: "Playwrite AU TAS", serif;
+    font-optical-sizing: auto;
+    
+    font-weight: weight;
+    font-style: bold;
+    text-align: center;
+    color: rgb(198, 78, 156);
+    border: 20px double #c64e9c;
+    border-radius: 100px;
+    box-shadow: 20px 20px #eb74c1;
+
+    padding:10px;
+
+    margin-left: auto;
+margin-right: auto;
+display: block;
+
+width: 400px;
+height: 200px;
+
+}
+
+
+.imageinfo{
+
+    width: 200px;
+    height: 100px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50%;
+
+}
+  
+.container {
+    display:grid;
+
+    font-family: "Playwrite AU TAS", serif;
+    font-optical-sizing: auto;
+    
+    letter-spacing: 0.1em;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 40px;
+    padding-bottom: 20px;
+
+    color: rgb(198, 78, 156);
+}
+.container2 {
+    font-style: italic;
+    display:grid;
+
+    font-family: "Playwrite AU TAS", serif;
+    font-optical-sizing: auto;
+    
+    letter-spacing: 0.1em;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    gap: 40px;
+    padding: 20%;
+
+    color: rgb(198, 78, 156);
+}
+.grid-container {
+
+    display: grid;
+}
+
+.imagedrawing{
+
+    float:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+border-radius: 20%;
+    box-shadow: 30px 30px rgb(156, 198, 209); 
+    width: 300px;
+    height: 400px;
+}
+
+
+
+.niece{
+
+    float:left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+border-radius: 20%;
+    box-shadow: 30px 30px rgb(209, 156, 159); 
+    width: 300px;
+    height: 400px;
+}
+
+.babies{
+
+    float:right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+border-radius: 20%;
+    box-shadow: 30px 30px rgb(158, 156, 209); 
+    width: 300px;
+    height: 400px;
+}
+
+
+
+
+.hello {
+
+ 
+    font-family: "Playwrite AU TAS", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:italic;
+    text-align: left;
+    color: rgb(198, 78, 156);
+
+    width: 400px;
+    height: 500px;
+
+  padding: 30px;
+
+}
+
+.pic {
+
+    font-family: "Playwrite AU TAS", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:italic;
+    text-align: right;
+    color: rgb(198, 78, 156);
+
+ 
+
+  padding: 30px;
+
+}
+
+
+.awesomecatresume {
+
+
+    font-family: "Playwrite AU TAS", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+   color: rgb(90, 35, 54);
+text-align: center;
+}
+
+h3 {
+
+
+    font-family: "Playwrite AU TAS", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+   color: rgb(90, 35, 54);
+text-align: center;
+}
+
+.containercats {
+display: flex;
+
+}
+
+.containercats {
+
+    list-style-type: none;
+    display:flex;
+    justify-content:space-between;
+    font-family: "Playwrite AU TAS", serif;
+    text-decoration: none;
+list-style-type: none;
+
+
+border-radius: 5px;
+text-transform: lowercase;
+padding:30px 90px 30px 90px;
+
+}
+.box-1 {
+
+    background-color: plum;
+    padding:30px 90px 30px 90px;
+}
+.box-2 {
+
+    background-color: plum;
+    padding:30px 90px 30px 90px;
+}.box-3 {
+
+    background-color: plum;
+    padding:30px 90px 30px 90px;
+}.box-4 {
+
+    background-color: plum;
+    padding:30px 90px 30px 90px;
+}
+
+.containercats {
+
+    list-style-type: none;
+    display:flex;
+
+    justify-content:space-between;
+
+list-style-type: none;
+
+
+border-radius: 5px;
+text-transform: lowercase;
+padding:30px 90px 30px 90px;
+
+
+}
+
+.manycatpictures {
+    
+ display: flex;
+    max-width: 25%;
+    padding: 0 4px;
+    flex-direction: row;
+  }
+  
+  .manycatpictures {
+    margin-top: 8px;
+    flex-direction: row;
+
+  }
+
+  @media (max-width: 600px) {
+    .manycatpictures {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 600px) {
+    .containercats {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
